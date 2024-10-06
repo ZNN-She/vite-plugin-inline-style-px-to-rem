@@ -1,8 +1,14 @@
 {
-  "name": "vite-react-starter",
-  "private": true,
-  "version": "0.0.0",
+  "name": "vite-plugin-inline-style-px-to-rem",
+  "private": false,
+  "version": "0.0.1",
   "type": "module",
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "main": "./lib/index.js",
+  "module": "./lib/index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
