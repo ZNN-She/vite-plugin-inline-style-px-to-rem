@@ -9,6 +9,7 @@
   ],
   "main": "./lib/index.js",
   "module": "./lib/index.js",
+  "homepage": "https://github.com/ZNN-She/vite-plugin-inline-style-px-to-rem",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -32,6 +33,7 @@
     "globals": "^15.9.0",
     "less": "^4.2.0",
     "postcss-pxtorem": "^6.1.0",
-    "vite": "^5.4.6"
+    "vite": "^5.4.6",
+    "vite-plugin-inline-style-px-to-rem": "^0.0.1"
   }
 }

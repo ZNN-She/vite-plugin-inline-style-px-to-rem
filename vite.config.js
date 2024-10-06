@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import postcssPxtoRem from 'postcss-pxtorem'
-import vitePluginInlineStylePxToRem from './lib/vite-plugin-inline-style-px-to-rem';
+import vitePluginInlineStylePxToRem from './lib/index';
 
 // https://vitejs.dev/config/
 export default defineConfig({
